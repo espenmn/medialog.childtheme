@@ -99,6 +99,13 @@ img.button:hover {
     margin: 8px 0;
 }
 
+.dropdown-toggle {     
+	padding-left: 7px;
+    padding-right: 8px
+    
+    }
+ 
+
 /* Slider */
 	p.slidedescription {
 	z-index:  3;
