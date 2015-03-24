@@ -1,0 +1,167 @@
+/* @override http://localhost:8080/Plone/++theme++medialog.childtheme/++theme++medialog.childtheme/static/childtheme.css */
+
+/* Stylesheet for the 'ICustomTheme' Plone browser layer */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 96%;
+	
+}
+
+header#portal-top {
+	 clear:  both;
+	 display: block;
+	 margin-top: 60px;
+	 
+}
+
+ 
+.hiddenStructure {
+	
+	display:  none;
+}
+
+
+a {
+	text-decoration: none;
+ 
+	color: #006F9A;
+}
+ 
+
+a.summary.url:hover,
+a:hover,a:active {
+    color: #0093ac;
+	outline: 0;
+}
+
+h1 a {
+	color: #c31723;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	color: #333;
+}
+
+.social {
+	margin: 10px 0 20px 0;
+	text-align: center
+}
+
+.social a {
+	opacity: 0.85;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+}
+
+.social a:hover {
+	opacity: 1;
+}
+
+img.button {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 28%;
+	height: auto;
+	opacity: 0.8
+}
+
+img.button:hover {
+	opacity: 1;
+}
+
+.social a:hover img {
+	opacity: 1;
+	height:  52px;
+	width:  52px;;
+	margin: -2px;
+}
+
+/* Slider */
+#my_slider li {
+ position: relative; 
+ list-style-type: none;
+    list-style-image: none;
+    height: 0;
+    opacity:  0;
+}
+
+#supersized li  img {
+	max-width: 4000px;
+	max-height: 2700px;
+}
+
+div.slider-image {
+	
+    padding: 0 !important;
+    margin:  0 !important;
+
+}
+
+#slider li.crossfade-current {
+ list-style-type: none;
+    list-style-image: none;
+    height: auto;;
+    z-index: 2;
+    opacity:  1;
+
+}
+#slider  ul,
+#slider li,
+#slider  {
+    max-width: 100%;
+    list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+}
+
+.slider {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0px auto 30px auto;
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+  	box-sizing: border-box;
+}
+
+.responsiveslider li {
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.slider li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.slider img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+
+.googleMapPane {
+height: 400px;
+}
+
+
+
+/* @end */ 
