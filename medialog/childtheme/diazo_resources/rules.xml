@@ -20,7 +20,7 @@
        Tiny, for example. -->
   <rules css:if-content="#visual-portal-wrapper">
 
-    <theme href="index.html" />
+    <theme href="++theme++medialog.childtheme/index.html" />
 
     <!-- Head rules
          ================================================================== -->
@@ -45,7 +45,11 @@
     <drop css:theme-children="body"/>
     <before css:theme-children="body" css:content-children="body"/>
     <after css:theme-children="body">
+    	<!-- version 2 -->
         <script src="{$base}/++theme++bootstrap-framework/js/bootstrap.min.js"></script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+		<!-- script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script-->
     </after>
 
   </rules>
