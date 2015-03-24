@@ -2,5 +2,4 @@ Introduction
 ============
 
 
-
-This product may contain traces of nuts.
+Proof of concept of using diazothme frameworks as base for a theme.
