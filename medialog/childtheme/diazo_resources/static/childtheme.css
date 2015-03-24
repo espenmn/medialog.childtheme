@@ -8,6 +8,15 @@ body {
 	
 }
 
+.smallText {
+	font-size: 95%;;
+}
+
+.largeText {
+	font-size: 120%;
+	line-height: 160%;
+}
+
 header#portal-top {
 	 clear:  both;
 	 display: block;
