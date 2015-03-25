@@ -8,6 +8,12 @@ body {
 	
 }
 
+section#portal-columns {
+	padding-bottom: 2em;
+}
+
+
+
 .smallText {
 	font-size: 95%;;
 }
@@ -75,6 +81,16 @@ h1,h2,h3,h4,h5,h6 {
 .social a:hover {
 	opacity: 1;
 }
+
+.visualIEFloatFix div.description {
+	margin-bottom: 0.7em;	
+}
+ 
+span#plone-image-details {
+	line-height: 2.2em
+}
+
+
 
 img.button {
 	margin-left: 2%;
